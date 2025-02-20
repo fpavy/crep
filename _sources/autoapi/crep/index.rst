@@ -121,7 +121,6 @@ Package Contents
 
    
    Removes duplicated rows by aggregating them.
-   TODO : assess
 
 
    :Parameters:

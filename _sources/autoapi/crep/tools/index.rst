@@ -21,7 +21,6 @@ Functions
    crep.tools.name_simplifier
    crep.tools.mark_new_segment
    crep.tools.compute_cumulated_length
-   crep.tools.weighted_mode
    crep.tools.concretize_aggregation
    crep.tools.n_cut_finder
    crep.tools.clusterize
@@ -217,29 +216,6 @@ Module Contents
 
        df: pandas series with integers
            ..
-
-
-
-
-
-
-
-
-
-
-
-   ..
-       !! processed by numpydoc !!
-
-.. py:function:: weighted_mode(df: pandas.DataFrame, weights: pandas.Series)
-
-   
-   weights can be the length of the segments 
-
-
-
-
-
 
 
 
