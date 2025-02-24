@@ -24,6 +24,7 @@ Functions
    crep.aggregate_duplicates
    crep.merge_event
    crep.aggregate_on_segmentation
+   crep.compute_discontinuity
 
 
 Package Contents
@@ -240,6 +241,30 @@ Package Contents
 
        pd.DataFrame:
            a dataframe with the feature data fitted to the new segmentation.
+
+
+
+
+
+
+
+
+
+
+
+   ..
+       !! processed by numpydoc !!
+
+.. py:function:: compute_discontinuity(df, id_discrete: Iterable[Any], id_continuous: [Any, Any])
+
+   
+   Compute discontinuity in rail segment. The i-th element in return
+   will be True if i-1 and i are discontinuous
+
+
+
+
+
 
 
 
