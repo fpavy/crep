@@ -313,22 +313,28 @@ document.write(`
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#functions">Functions</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#module-contents">Module Contents</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.build_admissible_data"><code class="docutils literal notranslate"><span class="pre">build_admissible_data()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.create_zones"><code class="docutils literal notranslate"><span class="pre">create_zones()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.get_overlapping"><code class="docutils literal notranslate"><span class="pre">get_overlapping()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.admissible_dataframe"><code class="docutils literal notranslate"><span class="pre">admissible_dataframe()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.sample_non_admissible_data"><code class="docutils literal notranslate"><span class="pre">sample_non_admissible_data()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.compute_discontinuity"><code class="docutils literal notranslate"><span class="pre">compute_discontinuity()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.create_continuity"><code class="docutils literal notranslate"><span class="pre">create_continuity()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.cumul_length"><code class="docutils literal notranslate"><span class="pre">cumul_length()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.reorder_columns"><code class="docutils literal notranslate"><span class="pre">reorder_columns()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.name_simplifier"><code class="docutils literal notranslate"><span class="pre">name_simplifier()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.mark_new_segment"><code class="docutils literal notranslate"><span class="pre">mark_new_segment()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.compute_cumulated_length"><code class="docutils literal notranslate"><span class="pre">compute_cumulated_length()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.concretize_aggregation"><code class="docutils literal notranslate"><span class="pre">concretize_aggregation()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.n_cut_finder"><code class="docutils literal notranslate"><span class="pre">n_cut_finder()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.clusterize"><code class="docutils literal notranslate"><span class="pre">clusterize()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.sort"><code class="docutils literal notranslate"><span class="pre">sort()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.merge"><code class="docutils literal notranslate"><span class="pre">merge()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.unbalanced_merge"><code class="docutils literal notranslate"><span class="pre">unbalanced_merge()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.unbalanced_concat"><code class="docutils literal notranslate"><span class="pre">unbalanced_concat()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.aggregate_constant"><code class="docutils literal notranslate"><span class="pre">aggregate_constant()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.__merge_index"><code class="docutils literal notranslate"><span class="pre">__merge_index()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.merge_event"><code class="docutils literal notranslate"><span class="pre">merge_event()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.create_regular_segmentation"><code class="docutils literal notranslate"><span class="pre">create_regular_segmentation()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.__merge"><code class="docutils literal notranslate"><span class="pre">__merge()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.__fix_discrete_index"><code class="docutils literal notranslate"><span class="pre">__fix_discrete_index()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.suppress_duplicates"><code class="docutils literal notranslate"><span class="pre">suppress_duplicates()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools._increasing_continuous_index"><code class="docutils literal notranslate"><span class="pre">_increasing_continuous_index()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.__refactor_data"><code class="docutils literal notranslate"><span class="pre">__refactor_data()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.__check_args_merge"><code class="docutils literal notranslate"><span class="pre">__check_args_merge()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.__table_jumps"><code class="docutils literal notranslate"><span class="pre">__table_jumps()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.aggregate_duplicates"><code class="docutils literal notranslate"><span class="pre">aggregate_duplicates()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.aggregate_continuous_data"><code class="docutils literal notranslate"><span class="pre">aggregate_continuous_data()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.split_segment"><code class="docutils literal notranslate"><span class="pre">split_segment()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.homogenize_within"><code class="docutils literal notranslate"><span class="pre">homogenize_within()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.homogenize_between"><code class="docutils literal notranslate"><span class="pre">homogenize_between()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.segmentation_irregular"><code class="docutils literal notranslate"><span class="pre">segmentation_irregular()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.segmentation_regular"><code class="docutils literal notranslate"><span class="pre">segmentation_regular()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.aggregate_on_segmentation"><code class="docutils literal notranslate"><span class="pre">aggregate_on_segmentation()</span></code></a></li>
 </ul>
 </li>
 </ul>
@@ -348,53 +354,71 @@ document.write(`
 <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">#</a></h2>
 <div class="pst-scrollable-table-container"><table class="autosummary longtable table">
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="#crep.tools.build_admissible_data" title="crep.tools.build_admissible_data"><code class="xref py py-obj docutils literal notranslate"><span class="pre">build_admissible_data</span></code></a>(→ pandas.DataFrame)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#crep.tools.merge" title="crep.tools.merge"><code class="xref py py-obj docutils literal notranslate"><span class="pre">merge</span></code></a>(→ pandas.DataFrame)</p></td>
+<td><p>This function aims at creating merge data frame</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#crep.tools.unbalanced_merge" title="crep.tools.unbalanced_merge"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unbalanced_merge</span></code></a>(→ pandas.DataFrame)</p></td>
+<td><p>Merge admissible and non-admissible dataframes based on discrete and continuous identifiers.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#crep.tools.unbalanced_concat" title="crep.tools.unbalanced_concat"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unbalanced_concat</span></code></a>(→ pandas.DataFrame)</p></td>
+<td><p>Concatenates the rows from two dataframes, and adjusts the lengths of the segments so that for each segment in the</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#crep.tools.aggregate_constant" title="crep.tools.aggregate_constant"><code class="xref py py-obj docutils literal notranslate"><span class="pre">aggregate_constant</span></code></a>(df, id_discrete, id_continuous)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#crep.tools.create_zones" title="crep.tools.create_zones"><code class="xref py py-obj docutils literal notranslate"><span class="pre">create_zones</span></code></a>(df, id_discrete, id_continuous)</p></td>
-<td><p>Create overlapping zone identifiers in the DataFrame based on discrete and continuous ID columns.</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#crep.tools.get_overlapping" title="crep.tools.get_overlapping"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_overlapping</span></code></a>(→ pandas.Series)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#crep.tools.__merge_index" title="crep.tools.__merge_index"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__merge_index</span></code></a>(data_left, data_right, id_discrete, ...)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#crep.tools.admissible_dataframe" title="crep.tools.admissible_dataframe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">admissible_dataframe</span></code></a>(data, id_discrete, id_continuous)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#crep.tools.merge_event" title="crep.tools.merge_event"><code class="xref py py-obj docutils literal notranslate"><span class="pre">merge_event</span></code></a>(data_left, data_right, id_discrete, ...)</p></td>
+<td><p>Assigns the details of events occurring at a specific points, in data_right, to the corresponding segment</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#crep.tools.create_regular_segmentation" title="crep.tools.create_regular_segmentation"><code class="xref py py-obj docutils literal notranslate"><span class="pre">create_regular_segmentation</span></code></a>(→ pandas.DataFrame)</p></td>
+<td><p>Creates a regular segmentation of a DataFrame based on specified discrete and continuous columns,</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#crep.tools.__merge" title="crep.tools.__merge"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__merge</span></code></a>(df_left, df_right, id_discrete, id_continuous)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#crep.tools.sample_non_admissible_data" title="crep.tools.sample_non_admissible_data"><code class="xref py py-obj docutils literal notranslate"><span class="pre">sample_non_admissible_data</span></code></a>(→ pandas.DataFrame)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#crep.tools.__fix_discrete_index" title="crep.tools.__fix_discrete_index"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__fix_discrete_index</span></code></a>(data_left, data_right, ...)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#crep.tools.compute_discontinuity" title="crep.tools.compute_discontinuity"><code class="xref py py-obj docutils literal notranslate"><span class="pre">compute_discontinuity</span></code></a>(df, id_discrete, id_continuous)</p></td>
-<td><p>Compute discontinuity in rail segment. The i-th element in return</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#crep.tools.create_continuity" title="crep.tools.create_continuity"><code class="xref py py-obj docutils literal notranslate"><span class="pre">create_continuity</span></code></a>(→ pandas.DataFrame)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#crep.tools.suppress_duplicates" title="crep.tools.suppress_duplicates"><code class="xref py py-obj docutils literal notranslate"><span class="pre">suppress_duplicates</span></code></a>(df, id_discrete, id_continuous)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#crep.tools.cumul_length" title="crep.tools.cumul_length"><code class="xref py py-obj docutils literal notranslate"><span class="pre">cumul_length</span></code></a>(→ int)</p></td>
-<td><p>Returns the sum of all segments sizes in the dataframe.</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#crep.tools.reorder_columns" title="crep.tools.reorder_columns"><code class="xref py py-obj docutils literal notranslate"><span class="pre">reorder_columns</span></code></a>(df, id_discrete, id_continuous)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#crep.tools._increasing_continuous_index" title="crep.tools._increasing_continuous_index"><code class="xref py py-obj docutils literal notranslate"><span class="pre">_increasing_continuous_index</span></code></a>(df, id_continuous)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#crep.tools.name_simplifier" title="crep.tools.name_simplifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">name_simplifier</span></code></a>(names)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#crep.tools.__refactor_data" title="crep.tools.__refactor_data"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__refactor_data</span></code></a>(data_left, data_right, id_continuous, ...)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#crep.tools.mark_new_segment" title="crep.tools.mark_new_segment"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mark_new_segment</span></code></a>(→ pandas.Series)</p></td>
-<td><p>Creates a boolean pd.Series aligning with df indices. True: there is a change any of the id_discrete</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#crep.tools.compute_cumulated_length" title="crep.tools.compute_cumulated_length"><code class="xref py py-obj docutils literal notranslate"><span class="pre">compute_cumulated_length</span></code></a>(→ pandas.Series)</p></td>
-<td><p>TODO : compute_cumulated_length.</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#crep.tools.concretize_aggregation" title="crep.tools.concretize_aggregation"><code class="xref py py-obj docutils literal notranslate"><span class="pre">concretize_aggregation</span></code></a>(→ pandas.DataFrame)</p></td>
-<td><p>Groupby + aggregation operations</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#crep.tools.n_cut_finder" title="crep.tools.n_cut_finder"><code class="xref py py-obj docutils literal notranslate"><span class="pre">n_cut_finder</span></code></a>(→ pandas.Series)</p></td>
-<td><p>Finds in how many sub-segments the segment should be cut (method = &quot;split&quot;) or find where to stop the aggregation of</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#crep.tools.clusterize" title="crep.tools.clusterize"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clusterize</span></code></a>(→ pandas.Series)</p></td>
-<td><p>TODO: create_cluster_by_size</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#crep.tools.sort" title="crep.tools.sort"><code class="xref py py-obj docutils literal notranslate"><span class="pre">sort</span></code></a>(→ pandas.DataFrame)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#crep.tools.__check_args_merge" title="crep.tools.__check_args_merge"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__check_args_merge</span></code></a>(data_left, data_right, ...)</p></td>
 <td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#crep.tools.__table_jumps" title="crep.tools.__table_jumps"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__table_jumps</span></code></a>(data, id1, id2, id_discrete)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#crep.tools.aggregate_duplicates" title="crep.tools.aggregate_duplicates"><code class="xref py py-obj docutils literal notranslate"><span class="pre">aggregate_duplicates</span></code></a>(df, id_discrete, id_continuous[, ...])</p></td>
+<td><p>Removes duplicated rows by aggregating them.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#crep.tools.aggregate_continuous_data" title="crep.tools.aggregate_continuous_data"><code class="xref py py-obj docutils literal notranslate"><span class="pre">aggregate_continuous_data</span></code></a>(→ pandas.DataFrame)</p></td>
+<td><p>Aggregate segments to uniformize the size of smaller segments.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#crep.tools.split_segment" title="crep.tools.split_segment"><code class="xref py py-obj docutils literal notranslate"><span class="pre">split_segment</span></code></a>(→ pandas.DataFrame)</p></td>
+<td><p>Uniformizes segment size by splitting them into shorter segments close to target size.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#crep.tools.homogenize_within" title="crep.tools.homogenize_within"><code class="xref py py-obj docutils literal notranslate"><span class="pre">homogenize_within</span></code></a>(→ pandas.DataFrame)</p></td>
+<td><p>Uniformizes segment size by splitting them into shorter segments close to target size. The uniformization aims</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#crep.tools.homogenize_between" title="crep.tools.homogenize_between"><code class="xref py py-obj docutils literal notranslate"><span class="pre">homogenize_between</span></code></a>(→ tuple[pandas.DataFrame, ...)</p></td>
+<td><p>If the ratio of max segment size in one dataframe and min segment size in the other dataframe &gt; 2, it may create</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#crep.tools.segmentation_irregular" title="crep.tools.segmentation_irregular"><code class="xref py py-obj docutils literal notranslate"><span class="pre">segmentation_irregular</span></code></a>(→ pandas.DataFrame)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#crep.tools.segmentation_regular" title="crep.tools.segmentation_regular"><code class="xref py py-obj docutils literal notranslate"><span class="pre">segmentation_regular</span></code></a>(→ pandas.DataFrame)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#crep.tools.aggregate_on_segmentation" title="crep.tools.aggregate_on_segmentation"><code class="xref py py-obj docutils literal notranslate"><span class="pre">aggregate_on_segmentation</span></code></a>(df_segmentation, df_data, ...)</p></td>
+<td><p>adds data to segmentation</p></td>
 </tr>
 </tbody>
 </table>
@@ -403,107 +427,227 @@ document.write(`
 <section id="module-contents">
 <h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading">#</a></h2>
 <dl class="py function">
-<dt class="sig sig-object py" id="crep.tools.build_admissible_data">
-<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">build_admissible_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Iterable</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">pandas.DataFrame</span></span></span><a class="headerlink" href="#crep.tools.build_admissible_data" title="Link to this definition">#</a></dt>
-<dd></dd></dl>
-
-<dl class="py function">
-<dt class="sig sig-object py" id="crep.tools.create_zones">
-<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">create_zones</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Iterable</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#crep.tools.create_zones" title="Link to this definition">#</a></dt>
-<dd><p>Create overlapping zone identifiers in the DataFrame based on discrete and continuous ID columns.</p>
+<dt class="sig sig-object py" id="crep.tools.merge">
+<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">merge</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data_left</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data_right</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">iter</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">how</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">remove_duplicates</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">pandas.DataFrame</span></span></span><a class="headerlink" href="#crep.tools.merge" title="Link to this definition">#</a></dt>
+<dd><p>This function aims at creating merge data frame</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><dl class="simple">
-<dt><strong>df</strong><span class="classifier">pd.DataFrame</span></dt><dd><p>The input DataFrame containing the df.</p>
+<dt><strong>data_left</strong></dt><dd><p>data frame with continuous representation</p>
 </dd>
-<dt><strong>id_discrete</strong><span class="classifier">iter</span></dt><dd><p>An iterable of column names that are considered discrete identifiers.</p>
+<dt><strong>data_right</strong></dt><dd><p>data frame with continuous representation</p>
 </dd>
-<dt><strong>id_continuous</strong><span class="classifier">iter</span></dt><dd><p>An iterable of column names that are considered continuous identifiers.</p>
+<dt><strong>id_continuous</strong></dt><dd><p>iterable of length two that delimits the edges of the segment</p>
+</dd>
+<dt><strong>id_discrete: iterable</strong></dt><dd><p>iterable that lists all the columns on which to perform a classic merge</p>
+</dd>
+<dt><strong>how: str</strong></dt><dd><p>how to make the merge, possible options are</p>
+<ul class="simple">
+<li><p>‘left’</p></li>
+<li><p>‘right’</p></li>
+<li><p>‘inner’</p></li>
+<li><p>‘outer’</p></li>
+</ul>
+</dd>
+<dt><strong>remove_duplicates</strong></dt><dd><p>whether to remove duplicates</p>
+</dd>
+<dt><strong>verbose</strong></dt><dd></dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crep.tools.unbalanced_merge">
+<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">unbalanced_merge</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data_admissible</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data_not_admissible</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">iter</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">pandas.DataFrame</span></span></span><a class="headerlink" href="#crep.tools.unbalanced_merge" title="Link to this definition">#</a></dt>
+<dd><p>Merge admissible and non-admissible dataframes based on discrete and continuous identifiers.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>data_admissible</strong><span class="classifier">pd.DataFrame</span></dt><dd><p>DataFrame containing admissible data.</p>
+</dd>
+<dt><strong>data_not_admissible</strong><span class="classifier">pd.DataFrame</span></dt><dd><p>DataFrame containing non-admissible data.</p>
+</dd>
+<dt><strong>id_discrete</strong><span class="classifier">list</span></dt><dd><p>List of column names representing discrete identifiers.</p>
+</dd>
+<dt><strong>id_continuous</strong><span class="classifier">list</span></dt><dd><p>List of column names representing continuous identifiers.</p>
 </dd>
 </dl>
 </dd>
 <dt class="field-even">Returns<span class="colon">:</span></dt>
 <dd class="field-even"><dl class="simple">
-<dt>pd.DataFrame</dt><dd><p>The DataFrame with an additional ‘__zone__’ column indicating the zone for each row.</p>
+<dt>pd.DataFrame</dt><dd><p>A DataFrame resulting from the unbalanced merge of admissible and non-admissible data.</p>
 </dd>
 </dl>
 </dd>
 </dl>
 <p class="rubric">Notes</p>
-<p>The function works by sorting the DataFrame based on the given discrete and continuous identifiers,
-and then creating a zone identifier (<cite>__zone__</cite>) that groups rows based on specific conditions.</p>
-<p>Steps:
-1. Sort the DataFrame based on discrete identifiers and the second continuous identifier.
-2. Assign a forward index (<cite>__zf__</cite>) based on the sorted order.
-3. Sort the DataFrame based on discrete identifiers and the first continuous identifier.
-4. Assign a backward index (<cite>__zi__</cite>) based on the sorted order.
-5. Determine zones where the forward and backward indices are equal (<cite>c_zone</cite>).
-6. Check if the start of a zone is greater than or equal to the end of the previous zone (<cite>c_inner</cite>).
-7. Identify changes in discrete identifiers (<cite>c_disc</cite>).
-8. Combine the conditions to create the final zone identifier (<cite>__zone__</cite>).</p>
-<p class="rubric">Examples</p>
-<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">df</span> <span class="o">=</span> <span class="p">{</span>
-<span class="gp">... </span>    <span class="s1">&#39;id&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span>
-<span class="gp">... </span>    <span class="s1">&#39;t1&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">932</span><span class="p">,</span> <span class="mi">996</span><span class="p">,</span> <span class="mi">2395</span><span class="p">,</span> <span class="mi">2395</span><span class="p">,</span> <span class="mi">3033</span><span class="p">,</span> <span class="mi">3628</span><span class="p">,</span> <span class="mi">4126</span><span class="p">,</span> <span class="mi">4140</span><span class="p">,</span> <span class="mi">4154</span><span class="p">,</span> <span class="mi">316263</span><span class="p">,</span> <span class="mi">316263</span><span class="p">,</span> <span class="mi">316471</span><span class="p">,</span> <span class="mi">316471</span><span class="p">],</span>
-<span class="gp">... </span>    <span class="s1">&#39;t2&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">2395</span><span class="p">,</span> <span class="mi">2324</span><span class="p">,</span> <span class="mi">3033</span><span class="p">,</span> <span class="mi">3628</span><span class="p">,</span> <span class="mi">3035</span><span class="p">,</span> <span class="mi">4140</span><span class="p">,</span> <span class="mi">4140</span><span class="p">,</span> <span class="mi">5508</span><span class="p">,</span> <span class="mi">5354</span><span class="p">,</span> <span class="mi">316399</span><span class="p">,</span> <span class="mi">316471</span><span class="p">,</span> <span class="mi">317406</span><span class="p">,</span> <span class="mi">317557</span><span class="p">],</span>
-<span class="gp">... </span>    <span class="s1">&#39;LONGUEUR&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">1463</span><span class="p">,</span> <span class="mi">1328</span><span class="p">,</span> <span class="mi">638</span><span class="p">,</span> <span class="mi">1233</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">512</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">1368</span><span class="p">,</span> <span class="mi">1200</span><span class="p">,</span> <span class="mi">136</span><span class="p">,</span> <span class="mi">208</span><span class="p">,</span> <span class="mi">935</span><span class="p">,</span> <span class="mi">1086</span><span class="p">],</span>
-<span class="gp">... </span>    <span class="s1">&#39;__zone__&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span>
-<span class="gp">... </span><span class="p">}</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">create_zones</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;id&#39;</span><span class="p">],</span> <span class="p">[</span><span class="s1">&#39;t1&#39;</span><span class="p">,</span> <span class="s1">&#39;t2&#39;</span><span class="p">])</span>
-</pre></div>
-</div>
+<p>The function performs the following steps:
+1. Combines and sorts the admissible and non-admissible data based on the identifiers.
+2. Resolves overlaps and conflicts between the admissible and non-admissible data.
+3. Merges and returns the final DataFrame.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt class="sig sig-object py" id="crep.tools.get_overlapping">
-<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">get_overlapping</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Iterable</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">pandas.Series</span></span></span><a class="headerlink" href="#crep.tools.get_overlapping" title="Link to this definition">#</a></dt>
-<dd></dd></dl>
-
-<dl class="py function">
-<dt class="sig sig-object py" id="crep.tools.admissible_dataframe">
-<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">admissible_dataframe</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Iterable</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#crep.tools.admissible_dataframe" title="Link to this definition">#</a></dt>
-<dd></dd></dl>
-
-<dl class="py function">
-<dt class="sig sig-object py" id="crep.tools.sample_non_admissible_data">
-<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">sample_non_admissible_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Iterable</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">pandas.DataFrame</span></span></span><a class="headerlink" href="#crep.tools.sample_non_admissible_data" title="Link to this definition">#</a></dt>
-<dd></dd></dl>
-
-<dl class="py function">
-<dt class="sig sig-object py" id="crep.tools.compute_discontinuity">
-<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">compute_discontinuity</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Iterable</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#crep.tools.compute_discontinuity" title="Link to this definition">#</a></dt>
-<dd><p>Compute discontinuity in rail segment. The i-th element in return
-will be True if i-1 and i are discontinuous</p>
+<dt class="sig sig-object py" id="crep.tools.unbalanced_concat">
+<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">unbalanced_concat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">df2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ignore_homogenize</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">pandas.DataFrame</span></span></span><a class="headerlink" href="#crep.tools.unbalanced_concat" title="Link to this definition">#</a></dt>
+<dd><p>Concatenates the rows from two dataframes, and adjusts the lengths of the segments so that for each segment in the
+first dataframe there is a segment in the second dataframes with the same id_continuous characteristics, and
+vice versa. This function can handle duplicated rows in each other of the df, but not non-duplicated overlap.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>df1</strong><span class="classifier">pandas dataframe</span></dt><dd></dd>
+<dt><strong>df2</strong><span class="classifier">pandas dataframe</span></dt><dd></dd>
+<dt><strong>id_discrete</strong><span class="classifier">list</span></dt><dd><p>discrete columns (object or categorical)</p>
+</dd>
+<dt><strong>id_continuous</strong><span class="classifier">list of 2 column names</span></dt><dd><p>continuous columns that delimit the segments’ start and end</p>
+</dd>
+<dt><strong>ignore_homogenize</strong><span class="classifier">optional. boolean</span></dt><dd><p>if True, ignore the homogenization function</p>
+</dd>
+<dt><strong>verbose: optional. boolean</strong></dt><dd><p>whether to print shape of df and if df is admissible at the end of the function.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><dl class="simple">
+<dt>df:  pandas dataframe</dt><dd></dd>
+</dl>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="py function">
-<dt class="sig sig-object py" id="crep.tools.create_continuity">
-<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">create_continuity</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Iterable</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">limit</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sort</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">pandas.DataFrame</span></span></span><a class="headerlink" href="#crep.tools.create_continuity" title="Link to this definition">#</a></dt>
-<dd></dd></dl>
-
-<dl class="py function">
-<dt class="sig sig-object py" id="crep.tools.cumul_length">
-<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">cumul_length</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#crep.tools.cumul_length" title="Link to this definition">#</a></dt>
-<dd><p>Returns the sum of all segments sizes in the dataframe.</p>
+<dt class="sig sig-object py" id="crep.tools.aggregate_constant">
+<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">aggregate_constant</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">iter</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">iter</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#crep.tools.aggregate_constant" title="Link to this definition">#</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>df</strong></dt><dd></dd>
+<dt><strong>id_discrete</strong></dt><dd></dd>
+<dt><strong>id_continuous</strong></dt><dd></dd>
+</dl>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"></dd>
+</dl>
 </dd></dl>
 
 <dl class="py function">
-<dt class="sig sig-object py" id="crep.tools.reorder_columns">
-<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">reorder_columns</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#crep.tools.reorder_columns" title="Link to this definition">#</a></dt>
+<dt class="sig sig-object py" id="crep.tools.__merge_index">
+<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">__merge_index</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data_left</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data_right</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">names</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">('left',</span> <span class="pre">'right')</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#crep.tools.__merge_index" title="Link to this definition">#</a></dt>
 <dd></dd></dl>
 
 <dl class="py function">
-<dt class="sig sig-object py" id="crep.tools.name_simplifier">
-<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">name_simplifier</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">names</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#crep.tools.name_simplifier" title="Link to this definition">#</a></dt>
+<dt class="sig sig-object py" id="crep.tools.merge_event">
+<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">merge_event</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data_left</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data_right</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">iter</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_event</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#crep.tools.merge_event" title="Link to this definition">#</a></dt>
+<dd><p>Assigns the details of events occurring at a specific points, in data_right, to the corresponding segment
+in data_left.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>data_left</strong><span class="classifier">pd.DataFrame</span></dt><dd><p>The left dataframe to be merged.</p>
+</dd>
+<dt><strong>data_right</strong><span class="classifier">pd.DataFrame</span></dt><dd><p>The right dataframe to be merged.</p>
+</dd>
+<dt><strong>id_discrete</strong><span class="classifier">iterable</span></dt><dd><p>The list of column names representing discrete identifiers for sorting and merging
+(e.g., categorical variables)</p>
+</dd>
+<dt><strong>id_continuous</strong><span class="classifier">list of two elements (Any, Any)</span></dt><dd><p>A list with two elements representing the continuous index (e.g., time or numerical variables).
+The first element is the column name of the continuous identifier used for sorting.</p>
+</dd>
+<dt><strong>id_event:</strong></dt><dd><p>the name of the column containing the exact localisation of the event</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><dl class="simple">
+<dt>pd.DataFrame</dt><dd><p>A merged dataframe that combines <cite>data_left</cite> and <cite>data_right</cite>.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crep.tools.create_regular_segmentation">
+<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">create_regular_segmentation</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">length</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">iter</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">pandas.DataFrame</span></span></span><a class="headerlink" href="#crep.tools.create_regular_segmentation" title="Link to this definition">#</a></dt>
+<dd><p>Creates a regular segmentation of a DataFrame based on specified discrete and continuous columns,
+segmenting continuous values into equal-length intervals.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>data</strong><span class="classifier">pd.DataFrame</span></dt><dd><p>Input DataFrame containing the data to be segmented.</p>
+</dd>
+<dt><strong>length</strong><span class="classifier">int</span></dt><dd><p>Length of each segment in the continuous interval. If set to 0, returns the original DataFrame.</p>
+</dd>
+<dt><strong>id_discrete</strong><span class="classifier">iterable</span></dt><dd><p>Column names to be used as discrete identifiers for grouping data.</p>
+</dd>
+<dt><strong>id_continuous</strong><span class="classifier">list of Any, Any</span></dt><dd><p>A list containing two continuous column names, where the first item represents the start value
+and the second item represents the end value for the segmentation.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><dl class="simple">
+<dt>pd.DataFrame</dt><dd><p>A new DataFrame with regular segments created based on the specified interval length and grouping columns.
+The resulting DataFrame includes columns for the discrete identifiers, the continuous start and end values
+for each segment.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Raises<span class="colon">:</span></dt>
+<dd class="field-odd"><dl class="simple">
+<dt>ValueError</dt><dd><p>If <cite>length</cite> is not a positive integer.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<p class="rubric">Notes</p>
+<p>The function calculates the number of segments for each discrete group by dividing the interval between the
+maximum and minimum continuous values by the given segment length. Segments are then evenly spaced within
+this interval for each discrete group.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crep.tools.__merge">
+<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">__merge</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df_left</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">df_right</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">iter</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">names</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">('left',</span> <span class="pre">'right')</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#crep.tools.__merge" title="Link to this definition">#</a></dt>
 <dd></dd></dl>
 
 <dl class="py function">
-<dt class="sig sig-object py" id="crep.tools.mark_new_segment">
-<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">mark_new_segment</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">pandas.Series</span></span></span><a class="headerlink" href="#crep.tools.mark_new_segment" title="Link to this definition">#</a></dt>
-<dd><p>Creates a boolean pd.Series aligning with df indices. True: there is a change any of the id_discrete
-value between row n and row n-1 or there is a discontinuity (shown by id_continuous) between row n and row n-1
-Seems to be equivalent to crep.tools.compute_discontinuity</p>
+<dt class="sig sig-object py" id="crep.tools.__fix_discrete_index">
+<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">__fix_discrete_index</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data_left</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data_right</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete_left</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">iter</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete_right</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">iter</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#crep.tools.__fix_discrete_index" title="Link to this definition">#</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crep.tools.suppress_duplicates">
+<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">suppress_duplicates</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#crep.tools.suppress_duplicates" title="Link to this definition">#</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crep.tools._increasing_continuous_index">
+<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">_increasing_continuous_index</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#crep.tools._increasing_continuous_index" title="Link to this definition">#</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crep.tools.__refactor_data">
+<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">__refactor_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data_left</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data_right</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">names</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">('left',</span> <span class="pre">'right')</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#crep.tools.__refactor_data" title="Link to this definition">#</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crep.tools.__check_args_merge">
+<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">__check_args_merge</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data_left</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data_right</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">how</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#crep.tools.__check_args_merge" title="Link to this definition">#</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crep.tools.__table_jumps">
+<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">__table_jumps</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id2</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#crep.tools.__table_jumps" title="Link to this definition">#</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crep.tools.aggregate_duplicates">
+<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">aggregate_duplicates</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dict_agg</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#crep.tools.aggregate_duplicates" title="Link to this definition">#</a></dt>
+<dd><p>Removes duplicated rows by aggregating them.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><dl class="simple">
@@ -512,57 +656,8 @@ Seems to be equivalent to crep.tools.compute_discontinuity</p>
 </dd>
 <dt><strong>id_continuous</strong><span class="classifier">list of 2 column names</span></dt><dd><p>continuous columns that delimit the segments’ start and end</p>
 </dd>
-</dl>
-</dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><dl class="simple">
-<dt>df: boolean pandas series</dt><dd></dd>
-</dl>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py function">
-<dt class="sig sig-object py" id="crep.tools.compute_cumulated_length">
-<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">compute_cumulated_length</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">pandas.Series</span></span></span><a class="headerlink" href="#crep.tools.compute_cumulated_length" title="Link to this definition">#</a></dt>
-<dd><p>TODO : compute_cumulated_length.
-Computes cumulative sum of segment length for each unique combination of id_discrete.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><dl class="simple">
-<dt><strong>df</strong><span class="classifier">pandas dataframe</span></dt><dd><p>without duplicated rows or overlapping rows</p>
-</dd>
-<dt><strong>id_discrete</strong><span class="classifier">list</span></dt><dd><p>discrete columns (object or categorical)</p>
-</dd>
-<dt><strong>id_continuous</strong><span class="classifier">list of 2 column names</span></dt><dd><p>continuous columns that delimit the segments’ start and end</p>
-</dd>
-</dl>
-</dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><dl class="simple">
-<dt>df: pandas series with integers</dt><dd></dd>
-</dl>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py function">
-<dt class="sig sig-object py" id="crep.tools.concretize_aggregation">
-<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">concretize_aggregation</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dict_agg</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">add_group_by</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Any</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">pandas.DataFrame</span></span></span><a class="headerlink" href="#crep.tools.concretize_aggregation" title="Link to this definition">#</a></dt>
-<dd><p>Groupby + aggregation operations</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><dl class="simple">
-<dt><strong>df</strong><span class="classifier">pandas dataframe</span></dt><dd><p>without duplicated rows or overlapping rows</p>
-</dd>
-<dt><strong>id_discrete</strong><span class="classifier">list</span></dt><dd><p>discrete columns (object or categorical)</p>
-</dd>
-<dt><strong>id_continuous</strong><span class="classifier">list of 2 column names</span></dt><dd><p>continuous columns that delimit the segments’ start and end</p>
-</dd>
-<dt><strong>dict_agg: dict, keys: agg operator, values: list of columns or None,</strong></dt><dd><p>specify which aggregation operator to apply for which column. If None, default is mean for all columns.
-id_continuous, id_discrete and add_group_by columns don’t need to be specified in the dictionary</p>
-</dd>
-<dt><strong>add_group_by</strong><span class="classifier">optional. column name or list of column names</span></dt><dd><p>Additional columns to consider when grouping by</p>
+<dt><strong>dict_agg: dict, keys: agg operator, values: list of columns or None</strong></dt><dd><p>specify which aggregation operator to apply for which column. If None, default is mean for all columns.
+id_continuous and id_discrete columns don’t need to be specified in the dictionary</p>
 </dd>
 <dt><strong>verbose: boolean</strong></dt><dd><p>whether to print shape of df and if df is admissible at the end of the function.</p>
 </dd>
@@ -570,12 +665,13 @@ id_continuous, id_discrete and add_group_by columns don’t need to be specified
 </dd>
 <dt class="field-even">Returns<span class="colon">:</span></dt>
 <dd class="field-even"><dl class="simple">
-<dt><strong>df</strong><span class="classifier">pandas series with integers</span></dt><dd></dd>
+<dt>df: pandas dataframe</dt><dd><p>without duplicated rows</p>
+</dd>
 </dl>
 </dd>
 <dt class="field-odd">Raises<span class="colon">:</span></dt>
 <dd class="field-odd"><dl class="simple">
-<dt>Exception</dt><dd><p>When the dataframe df passed in argument is not admissible i.e. it contains overlapping rows and or duplicates</p>
+<dt>Exception</dt><dd><p>When the dataframe df passed in argument does not contain any duplicated row</p>
 </dd>
 </dl>
 </dd>
@@ -583,16 +679,9 @@ id_continuous, id_discrete and add_group_by columns don’t need to be specified
 </dd></dl>
 
 <dl class="py function">
-<dt class="sig sig-object py" id="crep.tools.n_cut_finder">
-<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">n_cut_finder</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">target_size</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">method</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Literal</span><span class="p"><span class="pre">[</span></span><span class="s"><span class="pre">'agg'</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">'split'</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">pandas.Series</span></span></span><a class="headerlink" href="#crep.tools.n_cut_finder" title="Link to this definition">#</a></dt>
-<dd><p>Finds in how many sub-segments the segment should be cut (method = “split”) or find where to stop the aggregation of
-segments into a super segment (method = “agg”). The returned value of the function is the pd.Series of the column</p>
-<blockquote>
-<div><p>__n_cut__</p>
-</div></blockquote>
-<p>If method is “agg”, the __n_cut__ contains non-NaN value everywhere but in the last row before a change of
-id_discrete value. The non-NaN values represent how many super-segments should result from the aggregation of the
-previous rows with NaN values.</p>
+<dt class="sig sig-object py" id="crep.tools.aggregate_continuous_data">
+<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">aggregate_continuous_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">target_size</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dict_agg</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">None</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">pandas.DataFrame</span></span></span><a class="headerlink" href="#crep.tools.aggregate_continuous_data" title="Link to this definition">#</a></dt>
+<dd><p>Aggregate segments to uniformize the size of smaller segments.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><dl class="simple">
@@ -604,17 +693,16 @@ previous rows with NaN values.</p>
 </dd>
 <dt><strong>target_size: integer &gt; 0</strong></dt><dd><p>targeted segment size</p>
 </dd>
-<dt><strong>method</strong><span class="classifier">str, either “agg” or “split”</span></dt><dd><p>Whether to find n_cut for aggregating (agg) or for splitting (split)</p>
+<dt><strong>dict_agg: optional. dict, keys: agg operator, values: list of columns or None,</strong></dt><dd><p>specify which aggregation operator to apply for which column. If None, default is mean for all columns.
+id_continuous, id_discrete and add_group_by columns don’t need to be specified in the dictionary</p>
+</dd>
+<dt><strong>verbose: optional. boolean</strong></dt><dd><p>whether to print shape of df and if df is admissible at the end of the function.</p>
 </dd>
 </dl>
 </dd>
 <dt class="field-even">Returns<span class="colon">:</span></dt>
 <dd class="field-even"><dl class="simple">
-<dt>df: pandas series</dt><dd><p>agg: series with floats and NaN. Floats are displayed in the rows that mark new segments.
-The remaining rows contain NaN. The float values indicates the number of possible target_sizes divisions in the
-segment (the sum of the previous NaN rows)
-split: series with integers &gt;= 1. They indicate in how many segments the current row should be divided.</p>
-</dd>
+<dt>df: pandas dataframe</dt><dd></dd>
 </dl>
 </dd>
 <dt class="field-odd">Raises<span class="colon">:</span></dt>
@@ -627,14 +715,13 @@ split: series with integers &gt;= 1. They indicate in how many segments the curr
 </dd></dl>
 
 <dl class="py function">
-<dt class="sig sig-object py" id="crep.tools.clusterize">
-<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">clusterize</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">target_size</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">pandas.Series</span></span></span><a class="headerlink" href="#crep.tools.clusterize" title="Link to this definition">#</a></dt>
-<dd><p>TODO: create_cluster_by_size
-Defines where to limit segment aggregation when uniformizing segment size to target size.</p>
+<dt class="sig sig-object py" id="crep.tools.split_segment">
+<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">split_segment</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">target_size</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">columns_sum_aggregation</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">pandas.DataFrame</span></span></span><a class="headerlink" href="#crep.tools.split_segment" title="Link to this definition">#</a></dt>
+<dd><p>Uniformizes segment size by splitting them into shorter segments close to target size.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><dl class="simple">
-<dt><strong>df</strong><span class="classifier">pandas dataframe.</span></dt><dd><p>The dataframe should be not have duplicated or overlapping rows.</p>
+<dt><strong>df</strong><span class="classifier">pandas dataframe</span></dt><dd><p>without duplicated rows or overlapping rows</p>
 </dd>
 <dt><strong>id_discrete</strong><span class="classifier">list</span></dt><dd><p>discrete columns (object or categorical)</p>
 </dd>
@@ -642,17 +729,60 @@ Defines where to limit segment aggregation when uniformizing segment size to tar
 </dd>
 <dt><strong>target_size: integer &gt; 0</strong></dt><dd><p>targeted segment size</p>
 </dd>
+<dt><strong>columns_sum_aggregation: list[str], optional</strong></dt><dd><p>Default to empty list. Some columns may have to be summed over several segments when creating super segments.
+If so, splitting a row and assigning to each new row the same value as in the original non-split row may
+result in inflated sums later on. To counter that, the columns that should later be summed are specified in
+this list. The values are transformed into ratios relative to the segment size, then the row is split, and
+then an inverse transformation is done to reassign a non-ratio value.</p>
+</dd>
+<dt><strong>verbose: optional. boolean</strong></dt><dd><p>whether to print shape of df and if df is admissible at the end of the function.</p>
+</dd>
 </dl>
 </dd>
 <dt class="field-even">Returns<span class="colon">:</span></dt>
 <dd class="field-even"><dl class="simple">
-<dt><strong>df</strong><span class="classifier">pandas series</span></dt><dd><p>with common identifiers (integers) for the segments that should be grouped together.</p>
+<dt>df: pandas dataframe</dt><dd></dd>
+</dl>
 </dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crep.tools.homogenize_within">
+<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">homogenize_within</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">target_size</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">method</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Literal</span><span class="p"><span class="pre">[</span></span><span class="s"><span class="pre">'agg'</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">'split'</span></span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">Literal</span><span class="p"><span class="pre">[</span></span><span class="s"><span class="pre">'agg'</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">'split'</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">set</span><span class="p"><span class="pre">[</span></span><span class="pre">Literal</span><span class="p"><span class="pre">[</span></span><span class="s"><span class="pre">'agg'</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">'split'</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dict_agg</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">strict_size</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">pandas.DataFrame</span></span></span><a class="headerlink" href="#crep.tools.homogenize_within" title="Link to this definition">#</a></dt>
+<dd><p>Uniformizes segment size by splitting them into shorter segments close to target size. The uniformization aims
+to get a close a possible to target_size with +- 1.33 * target_size as maximum error margin.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>df</strong><span class="classifier">pandas dataframe</span></dt><dd><p>without duplicated rows or overlapping rows</p>
+</dd>
+<dt><strong>id_discrete</strong><span class="classifier">list</span></dt><dd><p>discrete columns (object or categorical)</p>
+</dd>
+<dt><strong>id_continuous</strong><span class="classifier">list of 2 column names</span></dt><dd><p>continuous columns that delimit the segments’ start and end</p>
+</dd>
+<dt><strong>target_size: optional, integer &gt; 0 or None</strong></dt><dd><p>targeted segment size. If None, the median is selected.</p>
+</dd>
+<dt><strong>method</strong><span class="classifier">optional str, either “agg” or “split”</span></dt><dd><p>Whether to homogenize segment length by splitting long segments (“split”) or by aggregating short segments (“agg”) or both.
+Default to None lets the function define the method.</p>
+</dd>
+<dt><strong>strict_size: whether to strictly respect target_size specified in argument, if any specified.</strong></dt><dd><p>The function can change the target size if the value is not congruent with the method</p>
+</dd>
+<dt><strong>dict_agg: optional. dict, keys: agg operator, values: list of columns or None,</strong></dt><dd><p>specify which aggregation operator to apply for which column. If None, default is mean for all columns.
+id_continuous, id_discrete and add_group_by columns don’t need to be specified in the dictionary</p>
+</dd>
+<dt><strong>verbose: optional. boolean</strong></dt><dd><p>whether to print shape of df and if df is admissible at the end of the function.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><dl class="simple">
+<dt>df: pandas dataframe</dt><dd></dd>
 </dl>
 </dd>
 <dt class="field-odd">Raises<span class="colon">:</span></dt>
 <dd class="field-odd"><dl class="simple">
-<dt>Exception</dt><dd><p>When the dataframe df passed in argument is not admissible i.e. it contains overlapping rows and or duplicates</p>
+<dt>Exception:</dt><dd><p>If method is not defined and if the function failed to select automatically a method.</p>
 </dd>
 </dl>
 </dd>
@@ -660,9 +790,110 @@ Defines where to limit segment aggregation when uniformizing segment size to tar
 </dd></dl>
 
 <dl class="py function">
-<dt class="sig sig-object py" id="crep.tools.sort">
-<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">sort</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">pandas.DataFrame</span></span></span><a class="headerlink" href="#crep.tools.sort" title="Link to this definition">#</a></dt>
+<dt class="sig sig-object py" id="crep.tools.homogenize_between">
+<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">homogenize_between</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">df2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dict_agg_df1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dict_agg_df2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">keep_df1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">pandas.DataFrame</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">pandas.DataFrame</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#crep.tools.homogenize_between" title="Link to this definition">#</a></dt>
+<dd><p>If the ratio of max segment size in one dataframe and min segment size in the other dataframe &gt; 2, it may create
+issues in the unbalanced_concat function. homogenize_between changes the segments sizes in the dataframes to
+target a ratio &lt; 2 between the dataframes.</p>
+<p>Demonstration of the problem:
+Example of the early merging phase in unbalanced_merge:
+row 1: from df1 30 50
+row 2: from df1 50 70
+row 3, from df2 15 85
+unbalanced_merge will detect the overlap between row 2 and row 3, but it will not detect that row 1 is
+also overlapping with row 3. Thus, created splits will be 15-50, 50-70, 70-85 instead of being
+15-30, 30-50, 50-70, 70-85. Ratio of max segment in df2 / min segment in df1 &lt; 2 eliminates this problem:
+row 1: from df2 15-45
+row 2, from df1 30-50
+row 3: from df1 50 70
+row 4: from df2 45-85
+=&gt; splits will be 15-30, 30-45, 45-50, 50-70, 70-85</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>df1</strong><span class="classifier">pandas dataframe</span></dt><dd></dd>
+<dt><strong>df2</strong><span class="classifier">pandas dataframe</span></dt><dd></dd>
+<dt><strong>id_discrete</strong><span class="classifier">list</span></dt><dd><p>discrete columns (object or categorical)</p>
+</dd>
+<dt><strong>id_continuous</strong><span class="classifier">list of 2 column names</span></dt><dd><p>continuous columns that delimit the segments’ start and end</p>
+</dd>
+<dt><strong>dict_agg_df1: optional, dict[str, list[str]] | None</strong></dt><dd><p>dictionary with settings about how to handle the columns in df1 that are neither id_discrete nor id_continuous</p>
+</dd>
+<dt><strong>dict_agg_df2: optional, dict[str, list[str]] | None</strong></dt><dd><p>dictionary with settings about how to handle the columns in df2 that are neither id_discrete nor id_continuous</p>
+</dd>
+<dt><strong>keep_df1: optional, bool</strong></dt><dd><p>default to False. If True, the segmentation in df1 does not change. Only df2 adapts to df1.</p>
+</dd>
+<dt><strong>verbose: optional. boolean</strong></dt><dd><p>whether to print shape of df and if df is admissible at the end of the function.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><dl class="simple">
+<dt>df: pandas dataframe</dt><dd></dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crep.tools.segmentation_irregular">
+<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">segmentation_irregular</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">length_target</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">length_minimal</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">pandas.DataFrame</span></span></span><a class="headerlink" href="#crep.tools.segmentation_irregular" title="Link to this definition">#</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>df: pd.DataFrame</strong></dt><dd></dd>
+<dt><strong>id_discrete: list[str]</strong></dt><dd><p>list of name of columns of categorical type</p>
+</dd>
+<dt><strong>id_continuous: list[str, str]</strong></dt><dd><p>list of name of 2 columns of numerical type, indicating the start and the end of the segment</p>
+</dd>
+<dt><strong>length_target</strong></dt><dd><p>length to obtain at the end of the segmentation</p>
+</dd>
+<dt><strong>length_minimal</strong></dt><dd><p>When there are gaps in the dataframe, define the length beyond which this could be considered as a
+deliberate break in the segmentation and not as missing data. Under this threshold, a new row will
+be created to ensure the continuity between successive segments in the dataframe.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><dl class="simple">
+<dt>pd.DataFrame</dt><dd><p>New dataframe containing only the columns id_discrete and id_continuous, with the length of the segments
+adjusted to be as close as possible to length_target.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crep.tools.segmentation_regular">
+<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">segmentation_regular</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">length_target</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">length_gap_filling</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">pandas.DataFrame</span></span></span><a class="headerlink" href="#crep.tools.segmentation_regular" title="Link to this definition">#</a></dt>
 <dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crep.tools.aggregate_on_segmentation">
+<span class="sig-prename descclassname"><span class="pre">crep.tools.</span></span><span class="sig-name descname"><span class="pre">aggregate_on_segmentation</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df_segmentation</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">df_data</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dict_agg</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#crep.tools.aggregate_on_segmentation" title="Link to this definition">#</a></dt>
+<dd><p>adds data to segmentation</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>df_segmentation: pd.DataFrame</strong></dt><dd><p>the dataframe containing the segmentation. Should contain only columns id_discrete and id_continuous</p>
+</dd>
+<dt><strong>df_data: pd.DataFrame</strong></dt><dd><p>the dataframe containing the features to fit to the segmentation. Should contain the columns
+id_discrete and id_continuous as well as other columns for the features of interest.</p>
+</dd>
+<dt><strong>id_discrete</strong></dt><dd></dd>
+<dt><strong>id_continuous</strong></dt><dd></dd>
+<dt><strong>dict_agg:</strong></dt><dd></dd>
+</dl>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><dl class="simple">
+<dt>pd.DataFrame:</dt><dd><p>a dataframe with the feature data fitted to the new segmentation.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
 
 </section>
 </section>
@@ -705,22 +936,28 @@ Defines where to limit segment aggregation when uniformizing segment size to tar
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#functions">Functions</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#module-contents">Module Contents</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.build_admissible_data"><code class="docutils literal notranslate"><span class="pre">build_admissible_data()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.create_zones"><code class="docutils literal notranslate"><span class="pre">create_zones()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.get_overlapping"><code class="docutils literal notranslate"><span class="pre">get_overlapping()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.admissible_dataframe"><code class="docutils literal notranslate"><span class="pre">admissible_dataframe()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.sample_non_admissible_data"><code class="docutils literal notranslate"><span class="pre">sample_non_admissible_data()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.compute_discontinuity"><code class="docutils literal notranslate"><span class="pre">compute_discontinuity()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.create_continuity"><code class="docutils literal notranslate"><span class="pre">create_continuity()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.cumul_length"><code class="docutils literal notranslate"><span class="pre">cumul_length()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.reorder_columns"><code class="docutils literal notranslate"><span class="pre">reorder_columns()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.name_simplifier"><code class="docutils literal notranslate"><span class="pre">name_simplifier()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.mark_new_segment"><code class="docutils literal notranslate"><span class="pre">mark_new_segment()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.compute_cumulated_length"><code class="docutils literal notranslate"><span class="pre">compute_cumulated_length()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.concretize_aggregation"><code class="docutils literal notranslate"><span class="pre">concretize_aggregation()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.n_cut_finder"><code class="docutils literal notranslate"><span class="pre">n_cut_finder()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.clusterize"><code class="docutils literal notranslate"><span class="pre">clusterize()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.sort"><code class="docutils literal notranslate"><span class="pre">sort()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.merge"><code class="docutils literal notranslate"><span class="pre">merge()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.unbalanced_merge"><code class="docutils literal notranslate"><span class="pre">unbalanced_merge()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.unbalanced_concat"><code class="docutils literal notranslate"><span class="pre">unbalanced_concat()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.aggregate_constant"><code class="docutils literal notranslate"><span class="pre">aggregate_constant()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.__merge_index"><code class="docutils literal notranslate"><span class="pre">__merge_index()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.merge_event"><code class="docutils literal notranslate"><span class="pre">merge_event()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.create_regular_segmentation"><code class="docutils literal notranslate"><span class="pre">create_regular_segmentation()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.__merge"><code class="docutils literal notranslate"><span class="pre">__merge()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.__fix_discrete_index"><code class="docutils literal notranslate"><span class="pre">__fix_discrete_index()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.suppress_duplicates"><code class="docutils literal notranslate"><span class="pre">suppress_duplicates()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools._increasing_continuous_index"><code class="docutils literal notranslate"><span class="pre">_increasing_continuous_index()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.__refactor_data"><code class="docutils literal notranslate"><span class="pre">__refactor_data()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.__check_args_merge"><code class="docutils literal notranslate"><span class="pre">__check_args_merge()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.__table_jumps"><code class="docutils literal notranslate"><span class="pre">__table_jumps()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.aggregate_duplicates"><code class="docutils literal notranslate"><span class="pre">aggregate_duplicates()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.aggregate_continuous_data"><code class="docutils literal notranslate"><span class="pre">aggregate_continuous_data()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.split_segment"><code class="docutils literal notranslate"><span class="pre">split_segment()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.homogenize_within"><code class="docutils literal notranslate"><span class="pre">homogenize_within()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.homogenize_between"><code class="docutils literal notranslate"><span class="pre">homogenize_between()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.segmentation_irregular"><code class="docutils literal notranslate"><span class="pre">segmentation_irregular()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.segmentation_regular"><code class="docutils literal notranslate"><span class="pre">segmentation_regular()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.tools.aggregate_on_segmentation"><code class="docutils literal notranslate"><span class="pre">aggregate_on_segmentation()</span></code></a></li>
 </ul>
 </li>
 </ul>

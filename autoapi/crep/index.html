@@ -320,7 +320,6 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.aggregate_duplicates"><code class="docutils literal notranslate"><span class="pre">aggregate_duplicates()</span></code></a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.merge_event"><code class="docutils literal notranslate"><span class="pre">merge_event()</span></code></a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.aggregate_on_segmentation"><code class="docutils literal notranslate"><span class="pre">aggregate_on_segmentation()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.compute_discontinuity"><code class="docutils literal notranslate"><span class="pre">compute_discontinuity()</span></code></a></li>
 </ul>
 </li>
 </ul>
@@ -363,9 +362,6 @@ document.write(`
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="#crep.aggregate_on_segmentation" title="crep.aggregate_on_segmentation"><code class="xref py py-obj docutils literal notranslate"><span class="pre">aggregate_on_segmentation</span></code></a>(df_segmentation, df_data, ...)</p></td>
 <td><p>adds data to segmentation</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#crep.compute_discontinuity" title="crep.compute_discontinuity"><code class="xref py py-obj docutils literal notranslate"><span class="pre">compute_discontinuity</span></code></a>(df, id_discrete, id_continuous)</p></td>
-<td><p>Compute discontinuity in rail segment. The i-th element in return</p></td>
 </tr>
 </tbody>
 </table>
@@ -511,13 +507,6 @@ id_discrete and id_continuous as well as other columns for the features of inter
 </dl>
 </dd></dl>
 
-<dl class="py function">
-<dt class="sig sig-object py" id="crep.compute_discontinuity">
-<span class="sig-prename descclassname"><span class="pre">crep.</span></span><span class="sig-name descname"><span class="pre">compute_discontinuity</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Iterable</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#crep.compute_discontinuity" title="Link to this definition">#</a></dt>
-<dd><p>Compute discontinuity in rail segment. The i-th element in return
-will be True if i-1 and i are discontinuous</p>
-</dd></dl>
-
 </section>
 </section>
 
@@ -574,7 +563,6 @@ will be True if i-1 and i are discontinuous</p>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.aggregate_duplicates"><code class="docutils literal notranslate"><span class="pre">aggregate_duplicates()</span></code></a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.merge_event"><code class="docutils literal notranslate"><span class="pre">merge_event()</span></code></a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.aggregate_on_segmentation"><code class="docutils literal notranslate"><span class="pre">aggregate_on_segmentation()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crep.compute_discontinuity"><code class="docutils literal notranslate"><span class="pre">compute_discontinuity()</span></code></a></li>
 </ul>
 </li>
 </ul>
