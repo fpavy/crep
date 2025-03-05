@@ -607,7 +607,7 @@ Module Contents
    ..
        !! processed by numpydoc !!
 
-.. py:function:: segmentation_irregular(df: pandas.DataFrame, id_discrete: list[Any], id_continuous: [Any, Any], length_target, length_minimal) -> pandas.DataFrame
+.. py:function:: segmentation_irregular(df: pandas.DataFrame, id_discrete: list[Any], id_continuous: [Any, Any], length_target, length_gap_filling) -> pandas.DataFrame
 
    
 
@@ -627,7 +627,7 @@ Module Contents
        **length_target**
            length to obtain at the end of the segmentation
 
-       **length_minimal**
+       **length_gap_filling**
            When there are gaps in the dataframe, define the length beyond which this could be considered as a
            deliberate break in the segmentation and not as missing data. Under this threshold, a new row will
            be created to ensure the continuity between successive segments in the dataframe.

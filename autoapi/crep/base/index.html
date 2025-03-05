@@ -353,7 +353,7 @@ document.write(`
 <span id="crep-base"></span><h1>crep.base<a class="headerlink" href="#module-crep.base" title="Link to this heading">#</a></h1>
 <section id="functions">
 <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">#</a></h2>
-<div class="pst-scrollable-table-container"><table class="autosummary longtable table">
+<div class="pst-scrollable-table-container"><table class="autosummary longtable table autosummary">
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="#crep.base.merge" title="crep.base.merge"><code class="xref py py-obj docutils literal notranslate"><span class="pre">merge</span></code></a>(→ pandas.DataFrame)</p></td>
 <td><p>This function aims at creating merge data frame</p></td>
@@ -838,7 +838,7 @@ row 4: from df2 45-85
 
 <dl class="py function">
 <dt class="sig sig-object py" id="crep.base.segmentation_irregular">
-<span class="sig-prename descclassname"><span class="pre">crep.base.</span></span><span class="sig-name descname"><span class="pre">segmentation_irregular</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">length_target</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">length_minimal</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">pandas.DataFrame</span></span></span><a class="headerlink" href="#crep.base.segmentation_irregular" title="Link to this definition">#</a></dt>
+<span class="sig-prename descclassname"><span class="pre">crep.base.</span></span><span class="sig-name descname"><span class="pre">segmentation_irregular</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pandas.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_discrete</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_continuous</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">length_target</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">length_gap_filling</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">pandas.DataFrame</span></span></span><a class="headerlink" href="#crep.base.segmentation_irregular" title="Link to this definition">#</a></dt>
 <dd><dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><dl class="simple">
@@ -849,7 +849,7 @@ row 4: from df2 45-85
 </dd>
 <dt><strong>length_target</strong></dt><dd><p>length to obtain at the end of the segmentation</p>
 </dd>
-<dt><strong>length_minimal</strong></dt><dd><p>When there are gaps in the dataframe, define the length beyond which this could be considered as a
+<dt><strong>length_gap_filling</strong></dt><dd><p>When there are gaps in the dataframe, define the length beyond which this could be considered as a
 deliberate break in the segmentation and not as missing data. Under this threshold, a new row will
 be created to ensure the continuity between successive segments in the dataframe.</p>
 </dd>
